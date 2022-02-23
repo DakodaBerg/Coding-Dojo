@@ -1,0 +1,24 @@
+*{
+    padding: 0%; margin: 0%;
+}
+.search {
+    border: 3px solid aquamarine ; border-color: aquamarine;
+    border-radius: 15px; margin: 80px; padding: 10px 14px; margin-bottom: 20px;
+    width: 169px;  height: 10px; text-align: center;
+}
+::placeholder {
+    color: rgb(34, 182, 250); font-size: larger;
+}
+.button {
+    margin: 80px; padding: 10px; margin-top: 0px; margin-bottom: 20px;
+    border-radius: 50%; background-color: aquamarine; color: white; 
+    width: 70px; height: 70px; font-size: 2em; text-align: center; 
+    border-color: aquamarine; border: 3px;
+}
+value.button {
+    size: 100px;
+}
+.createaccount {
+    margin: 80px; padding: 10px; margin-top: 0px; background-color: rgb(40, 147, 247); 
+    color: white; width: 232px;
+}
