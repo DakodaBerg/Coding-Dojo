@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#profilecontainer {
+    margin: 0px 400px;
+    height: 1500px;
+}
+#nav-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+#nav-bar .nav-links a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.title {
+    padding: 0px;
+    font-size: 2em;
+}
+#nav-bar .btn {
+    background-color: rgb(0, 99, 145);
+    padding: 5px;
+    color: white;
+}
+#leftcolumn {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0px 0px 340px;
+}
+#rightcolumn {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 100px 0px 30px;
+}
+.darkgrey {
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+.smallprofilephoto {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.iconlogo {
+    height: 18px;
+    width: 18px;
+    padding-left: 14px;
+}
+.iconlogo2 {
+    height: 22px;
+    width: 22px;
+    padding-left: 10px;
+}
+.border {
+    border: 2px solid dimgrey;
+    border-radius: 5px;
+}
+.blueheader {
+    background-color: rgb(0, 99, 145);
+    height: 100px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-body h1 {
+    margin: 30px 0px 0px 15px;
+    font-size: 28pt;
+}
+.card-body h3 {
+    margin: 10px 0px 10px 15px;
+    font-size: 15pt;
+}
+.card-body p {
+    margin: 15px 0px 5px 20px;
+    font-size: 13pt;
+}
+.profilephoto {
+    border-radius: 50%;
+    height: 120px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: aliceblue;
+}
+div .card-body h3 img {
+    padding-right: 15px;
+    height: 25px;
+}
+div .card-body a {
+    padding-left: 12px;
+    color: blue;
+}
+#educationbox {
+    margin-top: 30px;
+    height: 200px;
+}
+.education-body h3,
+.education-body h4,
+.education-body p{
+    margin: 15px 0px 0px 40px;
+}
+#connectionrequest {
+    margin-bottom: 30px;
+    height: 200px;
+}
+div .request-body .row1{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+div .request-body .row1 p{
+    padding-right: 80px;
+}
+div .request-body .row1 .smallprofilephoto {
+    margin: 10px;   
+}
+div .request-body .row2 {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+div .request-body .row2 p{
+    padding-right: 85px;
+}
+div .request-body .row2 .smallprofilephoto {
+    margin: 10px;
+}
+div .connection-body {
+    display: flex; 
+}
+div .connection-body .photos {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+div .connection-body .names {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+div .connection-body .photos img {
+    padding: 5px;
+}
+div .connection-body .names p {
+    padding: 15px;
+}
+div #yourconnections a {
+    color: blue;
+    padding-left: 20px;
+}
+
+
+
